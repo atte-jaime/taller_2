@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Productos</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
+    <header>
+        <article id="menu-bar">
+            <p class='essential'>ESSENTIAL SOUNDS</p>
+            <span style="background-color:#505050"></span>
+            <p class='nav-options'>NEW RELEASES</p>
+            <span style="background-color:#505050"></span>
+            <p class='nav-options'>POPULARS</p>
+        </article>
+    </header>
+
+    <div class="intro">
+        <div class="titulo-seccion">Vinyl Records</div>
+        <div class="orden-productos"></div>
+    </div>
+
+    <div class="content">
+        <section class="filtros">
+            <h2>Filtrar por marca:</h2>
+            <a href="/?marca=Honda">Honda</a>
+            <a href="/?marca=Yamaha">Yamaha</a>
+            <a href="/">Todas</a>
+            
+            <h2>Filtrar por modelo:</h2>
+            <a href="/?menor=10000000&mayor=20000000">XRE300</a>
+            <a href="/?modelo=Teneré 660">Teneré 660</a>
+            <a href="/">Todas</a>
+            
+            <br>
+            <br>
+            <input type="range" name="" id="slider" min="10" max="20">
+            <input type="range" name="" id="sliderMax" min="10" max="20">
+            <button>Buscar</button>
+        </section>
+        <section class="productos">
+            {{#each productos}}
+            <!--Parte mostrar cada disco individual-->
+            <div class="disco" data-id="{{this._id}}">
+                <div class="imagen" style="background-image: url('{{img_principal}}');"></div>
+                <div class="info">
+                    <h1 id="album">{{album}}</h1>
+                    <div class="datos-container">
+                        <p id="artista">{{artista}}</p>
+                        <p id="formato">{{formato}}</p>
+                    </div>
+                    <p id="price">{{precio}}</p>
+                    <p></p>
+                </div>
+            </div>
+            {{/each}}
+        </section>
+    </div>
 </body>
+
 </html>

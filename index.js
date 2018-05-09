@@ -9,6 +9,7 @@ app.engine('hbs', engines.handlebars);
 
 app.set('views', './views');
 app.set('view engine', 'hbs');
+app.use(express.static('public'));
 
 // Conectarse a Base de Datos
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
@@ -22,17 +23,17 @@ MongoClient.connect('mongodb://localhost:27017', function (err, client) {
 
 app.get('/', (req, res) => {
 
-    var prod = db.collection('discos')
+    var prod = db.collection('datos')
         .find();
 
     if (req.query.marca)
         prod.filter({
-            marca: req.query.marca
+            //marca: req.query.marca
         });
 
     if (req.query.modelo)
         prod.filter({
-            modelo: req.query.modelo
+           // modelo: req.query.modelo
         });
 
     prod.toArray((err, result) => {
