@@ -1,0 +1,26 @@
+{
+  "name": "taller_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetolalo/taller_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetolalo/taller_2/issues"
+  },
+  "homepage": "https://github.com/tetolalo/taller_2#readme",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mongodb": "^3.0.8",
+    "nodemon": "^1.17.4"
+  }
+}
