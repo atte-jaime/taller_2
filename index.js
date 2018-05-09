@@ -26,14 +26,14 @@ app.get('/', (req, res) => {
     var prod = db.collection('datos')
         .find();
 
-    if (req.query.marca)
+    if (req.query.genero)
         prod.filter({
-            //marca: req.query.marca
+            genero: req.query.genero
         });
 
-    if (req.query.modelo)
+    if (req.query.formato)
         prod.filter({
-           // modelo: req.query.modelo
+           formato: req.query.formato
         });
 
     prod.toArray((err, result) => {
