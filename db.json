@@ -1,0 +1,222 @@
+{
+    "albumes": [{
+            "album": "Awaken, My Love!",
+            "artista": "Childish Gambino",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$14.29",
+            "lanzamiento": "November 10, 2017",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/61Qp5DeNYdL._SY355_.jpg"
+        },
+        {
+            "album": "Because The Internet",
+            "artista": "Childish Gambino",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$34.49",
+            "lanzamiento": "April 19, 2014",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/91aQS53Vo0L._SY355_.jpg"
+        },
+        {
+            "album": "Camp",
+            "artista": "Childish Gambino",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$14.99",
+            "lanzamiento": "December 6, 2011",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81NzJqyL8IL._SX355_.jpg"
+        }, {
+            "album": "Abbey Road ",
+            "artista": "The Beatles",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$20.99",
+            "lanzamiento": "November 13, 2012",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81oFpzU4d3L._SY355_.jpg"
+        }, {
+            "album": "Nothing Compares 2 U Single ",
+            "artista": "Prince",
+            "formato": "Single",
+            "genero": "Rock",
+            "precio": "$9.61",
+            "lanzamiento": "DMay 25, 2018",
+            "puntaje": "0",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/914NaMvk%2B0L._SY355_.jpg"
+        }, {
+            "album": "Back to Black",
+            "artista": "my Winehouse",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$16.99",
+            "lanzamiento": "June 19, 2007",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/91SLiiGA4PL._SX355_.jpg"
+        }, {
+            "album": "Tranquility Base Hotel & Casino",
+            "artista": "Arctic Monkeys",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$19.50",
+            "lanzamiento": "May 11, 2018",
+            "puntaje": "0",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81qR3UEqEzL._SY355_.jpg"
+        }, {
+            "album": "The Dark Side of the Moon",
+            "artista": "Pink Floyd",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$24.95",
+            "lanzamiento": "November 4, 2016",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/61hw9WloObL._SY355_.jpg"
+        }, {
+            "album": "Thriller",
+            "artista": "Michael Jackson",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$15.99",
+            "lanzamiento": "May 6, 2016",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81wfye0hsDL._SX355_.jpg"
+        }, {
+            "album": "Melodrama",
+            "artista": "Lorde",
+            "formato": "EP",
+            "genero": "Pop",
+            "precio": "$19.90",
+            "lanzamiento": "April 6, 2018",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/A18QUHExFgL._SY355_.jpg"
+        }, {
+            "album": "Quarters",
+            "artista": "King Gizzard & The Lizard Wizard",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$18.98",
+            "lanzamiento": "December 4, 2015",
+            "puntaje": "5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/514j12BnlzL._SY355_.jpg"
+        }, {
+            "album": "American Teen",
+            "artista": "Khalid",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$19.98",
+            "lanzamiento": "April 14, 2017",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/71STN7dpGFL._SY355_.jpg"
+        }, {
+            "album": "Back in Black",
+            "artista": "AC/DC",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$19.99",
+            "lanzamiento": "October 14, 2003",
+            "puntaje": "5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/51QBqqMxyoL._SY355_.jpg"
+        }, {
+            "album": "21",
+            "artista": "Adele",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$15.99",
+            "lanzamiento": "February 22, 2011",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/71ipksWZcjL._SX355_.jpg"
+        }, {
+            "album": "The Wall",
+            "artista": "Pink Floyd",
+            "formato": "LP",
+            "genero": "Rock",
+            "precio": "$33.00",
+            "lanzamiento": "August 26, 2016",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81QzRZ4UoNL._SX355_.jpg"
+        }, {
+            "album": "AM",
+            "artista": "Arctic Monkeys",
+            "formato": "LP",
+            "genero": "Indie Rock",
+            "precio": "$19.88",
+            "lanzamiento": "September 10, 2013",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/71hEtk3aCpL._SY355_.jpg"
+        }, {
+            "album": "Favourite Worst Nightmare",
+            "artista": "Arctic Monkeys",
+            "formato": "LP",
+            "genero": "Indie Rock",
+            "precio": "$16.96",
+            "lanzamiento": "February 26, 2013",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81jUUHuNvEL._SY355_.jpg"
+        }, {
+            "album": "Whatever People Say I Am, That's What I Am Not",
+            "artista": "Arctic Monkeys",
+            "formato": "LP",
+            "genero": "Indie Rock",
+            "precio": "$13.98",
+            "lanzamiento": "February 21, 2006",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/51JYgNUNUsL._SY355_.jpg"
+        }, {
+            "album": "Melophobia",
+            "artista": "Cage the Elephant",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$14.99",
+            "lanzamiento": "October 8, 2013",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/81xT1axhZ2L._SY355_.jpg"
+        }, {
+            "album": "Suck It and See",
+            "artista": "Arctic Monkeys",
+            "formato": "LP",
+            "genero": "Indie Rock",
+            "precio": "$16.96",
+            "lanzamiento": "June 7, 2011",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/51QTqyFN%2B%2BL._SY355_.jpg"
+        }, {
+            "album": "Currents",
+            "artista": "Tame Impala",
+            "formato": "LP",
+            "genero": "Pop",
+            "precio": "$18.65",
+            "lanzamiento": "July 17, 2015",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/91Si84rNDrL._SY355_.jpg"
+        }, {
+            "album": "Born To Die",
+            "artista": "Lana Del Rey",
+            "formato": "LP",
+            "genero": "Indie Rock",
+            "precio": "$16.88",
+            "lanzamiento": "February 21, 2012",
+            "puntaje": "4.5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/719SroNweJL._SY355_.jpg"
+        }, {
+            "album": "Random Access Memories",
+            "artista": "Daft Punk",
+            "formato": "LP",
+            "genero": "Electronic",
+            "precio": "$30.85",
+            "lanzamiento": "May 21, 2013",
+            "puntaje": "5",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/61Ia07wdZQL._SY355_.jpg"
+        }, {
+            "album": "Homework",
+            "artista": "Daft Punk",
+            "formato": "LP",
+            "genero": "Electronic",
+            "precio": "$22.66",
+            "lanzamiento": "September 25, 2012",
+            "puntaje": "4",
+            "img_principal": "https://images-na.ssl-images-amazon.com/images/I/91P-Hy%2BBXbL._SX355_.jpg"
+        }
+    ]
+}
