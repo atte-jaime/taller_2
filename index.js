@@ -21,8 +21,8 @@ MongoClient.connect('mongodb://localhost:27017', function (err, client) {
 });
 
 app.get('/', (req, res) => {
-    
-    var prod = db.collection('productos')
+
+    var prod = db.collection('discos')
         .find();
 
     if (req.query.marca)
