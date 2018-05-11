@@ -36,10 +36,12 @@ app.get('/', (req, res) => {
            formato: req.query.formato
         });
 
+        
     prod.toArray((err, result) => {
         console.log('hola servidor')
         res.render('index', {
-            productos: result
+            productos: result,
+            verify()
         });
     })
 });

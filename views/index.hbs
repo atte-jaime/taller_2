@@ -27,24 +27,28 @@
 
     <div class="content">
         <section class="filtros">
-            <h2>Género:</h2>
+            <h2>Filtrar por:</h2>
+            <h2>Género</h2>
+            <span></span>
             <a href="/?genero=Rock">Rock</a>
             <a href="/?genero=Indie Rock">Indie Rock</a>
             <a href="/?genero=Electronic">Electronica</a>
             <a href="/?genero=Pop">Pop</a>
             <a href="/">Todas</a>
 
-            <h2>Formato:</h2>
+            <h2>Formato</h2>
+            <span></span>
             <a href="/?formato=Single">Single</a>
             <a href="/?formato=EP">EP</a>
             <a href="/?formato=LP">LP</a>
             <a href="/">Todas</a>
-
+            <!--
             <br>
             <br>
             <input type="range" name="" id="slider" min="10" max="20">
             <input type="range" name="" id="sliderMax" min="10" max="20">
             <button>Buscar</button>
+            -->
         </section>
         <section class="productos">
             {{#each productos}}
@@ -64,6 +68,8 @@
             {{/each}}
         </section>
     </div>
+
+    
 </body>
 
 </html>

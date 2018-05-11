@@ -35,6 +35,19 @@ h1 {
     padding: 0;
 }
 
+a{
+    &:link, &:visited, &:hover, &:active{
+    text-decoration: none;
+    color: $grey;
+    font-size: 1rem;
+    font-family: $text-font;
+    font-weight: 300;
+    }
+    &:hover{
+        color: $red;
+    }
+}
+
 header {
     width: 100vw;
     height: 60px;
@@ -75,11 +88,12 @@ header {
     width: 70%;
     margin: 0 auto;
     margin-top: 60px;
+    padding: 3% 0;
     .titulo-seccion {
         font-family: $title-font;
         font-weight: 400;
         font-size: 2rem;
-        padding: 5% 0;
+        
     }
     .orden-productos {
         
@@ -94,22 +108,39 @@ header {
         flex: 1 1 20%;
         position: relative;
         width: 20%;
+        //padding-left:2%; 
         height: 100vh;
-        background: $beige;
+        //background: $beige;
         display: flex;
+        justify-content: flex-start;
         flex-flow: column nowrap;
+        h2{
+            color: $grey;
+            font-size: 1rem;
+            font-family: $text-font;
+            font-weight: 300;
+            margin: 0;
+            padding-top: 2%;
+        }
+        span {
+            background-color: $dark-beige;
+            width: 80%;
+            height: 2px;
+            margin-bottom: 2%;
+        }
     }
     .productos {
+        //border: $dark-beige 1px solid;
         position: relative;
         width: 80%;
-        padding: 0 20px; //margin-top: 50px;
+        padding: 0 2%; 
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: flex-start;
         .disco {
             height: 400px;
             width: 200px;
-            margin-left: 10px;
+            margin-left: 4%;
             margin-bottom: 40px;
             border: $dark-beige 1px solid;
             .imagen {
