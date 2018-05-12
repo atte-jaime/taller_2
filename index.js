@@ -21,7 +21,7 @@ MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     app.listen(1234);
 });
 
-app.get('/', (req, res) => {
+app.get('/products', (req, res) => {
 
     var prod = db.collection('datos')
         .find();
@@ -40,8 +40,7 @@ app.get('/', (req, res) => {
     prod.toArray((err, result) => {
         console.log('hola servidor')
         res.render('index', {
-            productos: result,
-            verify()
+            productos: result
         });
     })
 });
