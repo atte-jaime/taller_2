@@ -33,14 +33,29 @@ app.get('/products', (req, res) => {
 
     if (req.query.formato)
         prod.filter({
-           formato: req.query.formato
+            formato: req.query.formato
         });
 
-        
+
     prod.toArray((err, result) => {
         console.log('hola servidor')
         res.render('index', {
             productos: result
         });
     })
+});
+
+app.get('/disco', (req, res) => {
+    //console.log(req.query.album)
+    var disco = db.collection('datos').find({
+        album : req.query.album
+    });
+
+    disco.toArray((err, result) => {
+        console.log(result[0])
+        res.render('product_view', {
+            disc: result[0]
+        });
+    });
+
 });

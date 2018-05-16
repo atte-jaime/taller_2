@@ -53,10 +53,15 @@
         <section class="productos">
             {{#each productos}}
             <!--Parte mostrar cada disco individual-->
+
             <div class="disco" data-id="{{this._id}}">
-                <div class="imagen" style="background-image: url('{{img_principal}}');"></div>
+                <a href="/disco?album={{album}}">
+                    <div class="imagen" style="background-image: url('{{img_principal}}');"></div>
+                </a>
                 <div class="info">
-                    <h1 id="album">{{album}}</h1>
+                    <a href="/disco?album={{album}}">
+                        <h1 id="album">{{album}}</h1>
+                    </a>
                     <div class="datos-container">
                         <p id="artista">{{artista}}</p>
                         <p id="formato">{{formato}}</p>
@@ -65,11 +70,12 @@
                     <p></p>
                 </div>
             </div>
+
             {{/each}}
         </section>
     </div>
 
-    
+
 </body>
 
 </html>
