@@ -34,6 +34,14 @@ app.get('/products', (req, res) => {
             }
         });
     }
+
+    if (req.query.puntaje) {
+        prod.filter({
+            puntaje: {
+                $lt: req.query.puntaje
+            }
+        });
+    }
     
 
     if (req.query.genero)

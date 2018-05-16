@@ -88,21 +88,65 @@ header {
 }
 
 .producto {
-    width: 70%;
+    width: 50%;
     height: 600px;
     margin: auto;
     margin-top: 150px;
     display: flex;
-    background: $beige;
     .img-container {
+        //border: #505050 3px solid;
         .imagen {
             width: 300px;
             height: 300px;
             background-size: cover;
             transition: all .3s;
         }
+        .add-cart{
+            width: 100%;
+            background-color: $red;
+            padding: 3%;
+            border: none;
+            font-family: $title-font;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: $white;
+            transition: all .5s;
+            margin: 5% 0;
+            &:hover {
+                color: $white;
+                background-color: rgb(110, 38, 46);
+            }
+        }
     }
     .info {
-        flex: 2 1 20%;
+        flex: 1 1 20%;
+        padding: 0 5%;
+
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column nowrap;
+        span{
+            background-color: $dark-beige;
+            width: 80%;
+            height: 2px;
+            margin: 2% 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: $red;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 1% 0;
+        }
+
+        .price{
+            font-family: $title-font;
+            font-size: 2rem;
+            color: $red;
+        }
     }
 }

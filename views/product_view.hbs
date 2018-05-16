@@ -23,11 +23,19 @@
     <div class="producto">
         <div class="img-container">
             <div class="imagen" style="background-image: url('{{disc.img_principal}}')"></div>
+            <button class="add-cart">Agregar al carrito</button>
         </div>
         <div class="info">
-            <h1>Álbum: {{disc.album}}</h1>
-            <p>Artista: {{disc.artista}}</p>
-            <p>Género: {{disc.genero}}</p>
+            <h1>{{disc.album}}</h1>
+            <p><b>Artista: </b>{{disc.artista}}</p>
+            <span></span>
+            <p><b>Género: </b>{{disc.genero}}</p>
+            <p><b>Formato: </b>{{disc.formato}}</p>
+            <p><b>Lanzamiento: </b>{{disc.lanzamiento}}</p>
+            <span></span>
+            <p><b>Puntaje: </b>{{disc.puntaje}}</p>
+            <span></span>
+            <div class="price"> <b>$ {{disc.precio}}</b></div>
         </div>
     </div>
 </body>
