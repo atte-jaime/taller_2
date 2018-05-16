@@ -26,6 +26,16 @@ app.get('/products', (req, res) => {
     var prod = db.collection('datos')
         .find();
 
+    if (req.query.min) {
+        prod.filter({
+            precio: {
+                $gte: req.query.min,
+                $lt: req.query.max
+            }
+        });
+    }
+    
+
     if (req.query.genero)
         prod.filter({
             genero: req.query.genero
@@ -36,17 +46,9 @@ app.get('/products', (req, res) => {
             formato: req.query.formato
         });
 
-    if (req.query.min) {
-        prod.filter({
-            precio: {
-                $gte: req.query.min,
-                $lt: req.query.max
-            }
-        });
-    }
+
 
     prod.toArray((err, result) => {
-        console.log('hola servidor')
         res.render('index', {
             productos: result
         });
