@@ -42,6 +42,14 @@
             <a href="/products?formato=EP">EP</a>
             <a href="/products?formato=LP">LP</a>
             <a href="/products">Todas</a>
+
+            <h2>Precio</h2>
+            <span></span>
+            <a href="/products?min=0&max=9.99"> &lt; $9.99</a>
+            <a href="/products?min=10&max=19.99">$10 - $19.99</a>
+            <a href="/products?min=20&max=29.99">$20 - $29.99</a>
+            <a href="/products?min=30&max=39.99">$30 - $39.99</a>
+            <a href="/products">Cualquier precio</a>
             <!--
             <br>
             <br>
@@ -66,7 +74,7 @@
                         <p id="artista">{{artista}}</p>
                         <p id="formato">{{formato}}</p>
                     </div>
-                    <p id="price">{{precio}}</p>
+                    <p id="price">${{precio}}</p>
                     <p></p>
                 </div>
             </div>

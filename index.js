@@ -36,6 +36,14 @@ app.get('/products', (req, res) => {
             formato: req.query.formato
         });
 
+    if (req.query.min) {
+        prod.filter({
+            precio: {
+                $gte: req.query.min,
+                $lt: req.query.max
+            }
+        });
+    }
 
     prod.toArray((err, result) => {
         console.log('hola servidor')
@@ -48,7 +56,7 @@ app.get('/products', (req, res) => {
 app.get('/disco', (req, res) => {
     //console.log(req.query.album)
     var disco = db.collection('datos').find({
-        album : req.query.album
+        album: req.query.album
     });
 
     disco.toArray((err, result) => {

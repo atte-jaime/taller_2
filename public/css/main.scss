@@ -138,11 +138,11 @@ header {
         flex-flow: row wrap;
         justify-content: flex-start;
         .disco {
-            height: 400px;
+            height: 300px;
             width: 200px;
             margin-left: 4%;
             margin-bottom: 40px;
-            border: $dark-beige 1px solid;
+            //border: $dark-beige 1px solid;
             .imagen {
                 width: 200px;
                 height: 200px;
@@ -154,13 +154,15 @@ header {
                 }
             }
             .info {
+                height: 100px;
+                position: relative;
                 margin-top: 15px;
                 #album {
                     font-size: 1.5rem;
                 }
                 .datos-container {
-                    margin-top: 5px;
-                    border: $red 3px solid;
+                    margin-top: 10px;
+                    //border: $red 3px solid;
                     #artista,
                     #formato {
                         font-family: $text-font;
@@ -169,7 +171,13 @@ header {
                     }
                 }
                 #price {
-                    
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    font-family: $title-font;
+                    font-weight: 300;
+                    text-align: right;
+                    color: $red;
                 }
             }
         }
